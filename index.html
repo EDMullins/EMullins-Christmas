@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+  <style>
+      body {
+  font-family: "Old Standard TT", serif;
+}
+.left {
+  float: left;
+  margin-left: 20px;
+}
+.right {
+  float: right;
+  margin-right: 20px;
+}
+.tree {
+  position: relative;
+  margin-inline: 100px;
+}
+.back p {
+  font-size: 2vw;
+  text-align: center;
+  padding-block: 100px;
+}
+.santa {
+  text-align: center;
+  margin-top: 200px;
+  animation: move 5s infinite;
+}
+img {
+  height: 200px;
+}
+.santa-cont {
+  animation: rotate 5s infinite;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+.background {
+  background-image: url("https://wallpaperaccess.com/full/788495.jpg");
+  background-size: cover;
+  margin-block: 0;
+}
+
+.title {
+  font-family: "Old Standard TT", serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vw;
+  color: white;
+}
+  </style>
+</head>
+
+
+<body>
+  <div class="back">
+    <div class="tree">
+      <img class="left" alt="tree" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/christmas-tree_1f384.png">
+    </div>
+    <div class="tree">
+      <img class="right" alt="tree" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/282/christmas-tree_1f384.png">
+    </div>
+    <div class="santa">
+      <div class="santa-cont">
+        <a href="christmas2.html">
+          <img alt="Santa" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/htc/37/father-christmas_1f385.png">
+        </a>
+      </div>
+    </div>
+    <p>^ Click Santa For A Surprise ^</p>
+  </div>
+</body>
+
+</html>
